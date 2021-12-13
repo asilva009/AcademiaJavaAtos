@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Minhas Pedaladas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="imagens/bike.png">
+	<h1>Adicionar nova pedalada</h1>
+	 <form action="ServeletPedal" method="POST">
+	 	<table>
+	 		<tr>
+                <td>Data: 
+                <input type="text" name="data" placeholder="DD/MM/AAAA"/></td>
+            </tr>
+            <tr>
+                <td>Rota:
+                <input type="text" name="nomeRota" placeholder="Nome da Rota"/></td>
+            </tr>
+            <tr>
+                <td>Distância: 
+                <input type="text" name="distanciaPercorrida" placeholder="XX km"/></td>
+            </tr>
+            <tr>
+                <td>Tempo: 
+                <input type="text" name="tempo" placeholder="XX:XX h"/></td>
+            </tr>
+            <tr>
+        </table>
+               <input type="submit" value="Salvar" class="botao2"/>          
+      	
+      </form>	
+
+</body>
+</html>

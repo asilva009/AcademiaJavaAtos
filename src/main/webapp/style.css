@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1 {
+	font-family: Arial;
+	font-size: 30pt;
+	color:#408080;	
+	margin-bottom: 0;
+}
+
+.botao1 {
+	text-decoration: none;
+	background-color:#408080;
+	padding: 3px 8px 3px 8px;
+	color: white;		
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	bottom:150px;
+}
+
+.botao2 {
+	text-decoration: none;
+	background-color:#408080;
+	padding: 3px 8px 3px 8px;
+	color: white;		
+	border: 0;
+	cursor: pointer;
+}
+
+#tabela {
+	position: relative;
+	bottom: 150px;
+	border-collapse: collapse;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: left;
+	background-color:#408080;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
